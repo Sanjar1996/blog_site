@@ -123,7 +123,7 @@ STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
 
 # Serverga qoyishda kerak bo'ladi Deploy qilgani
 STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
-STATICFILES_STORAGE = 'whitenoice.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
